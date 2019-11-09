@@ -2,3 +2,6 @@
   HUGO_VERSION = "0.55.6"
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
+
+[build]
+  command = "git submodule update --init --recursive --depth=1 && hugo --minify"
