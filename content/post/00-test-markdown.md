@@ -248,7 +248,8 @@ Test from the Octopress blockquote page at: http://octopress.org/docs/plugins/bl
 
 ### Youku Video
 
-{{< youku "id_XMjA0MDAwNjU5Mg==" >}}
+优酷链接已失效，等待代码更新。。。
+
 
 
 参考资料
