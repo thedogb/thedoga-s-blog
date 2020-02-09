@@ -72,6 +72,11 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   weight = 60
   identifier = "rss"
   url = "/index.html"
+[[menu.main]]
+  name = "友链"
+  weight = 70
+  identifier = "link"
+  url = "/link/"
 
 
 [params]
