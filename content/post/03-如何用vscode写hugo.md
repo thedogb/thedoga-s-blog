@@ -21,13 +21,13 @@ mathjax: false
 ---
 
 ## 一、插件
-1. hugofy
+### 1. hugofy
 
 可以直接在 vscode 中进行hugo的部署工作
 直接用 `command shift + P` 唤出面板 输入 hugo 查找相应的命令即可
 ![81JG8h](https://cdn.jsdelivr.net/gh/thedogb/pic@master/uPic/2021-09-21/81JG8h.png)
 
-2. Hugo Language and Syntax Support
+### 2. Hugo Language and Syntax Support
 
 提供代码高亮, 除了 markdown 的代码高亮以外，还有 meta 信息的高亮
 
