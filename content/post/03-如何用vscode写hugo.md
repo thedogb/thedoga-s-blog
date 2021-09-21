@@ -2,7 +2,7 @@
 title: "如何用 vscode 写 hugo 博客"
 date: 2021-09-21T12:03:01+08:00
 lastmod: 2021-09-21T12:03:01+08:00
-draft: true
+draft: false
 keywords: []
 description: ""
 tags: ["how to", "vscode", "hugo"]
@@ -11,8 +11,8 @@ author: "栖木"
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
-comment: false
-toc: false
+comment: true
+toc: true
 autoCollapseToc: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
