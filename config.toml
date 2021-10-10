@@ -2,7 +2,7 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "http://localhost:1313/"
+baseURL = "https://thedoga.netlify.app/"
 # title = "栖木的网络日志"
 enableRobotsTXT = true
 enableEmoji = true
@@ -14,7 +14,7 @@ hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否�
 paginate = 5              # Number of articles displayed on the homepage  # 首页每页显示的文章数
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+googleAnalytics = "G-BTEJ6QDF8W"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 # enableGitInfo = true      # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
@@ -135,3 +135,8 @@ defaultContentLanguage = "zh-cn"           # Default language to use
     repo = "thedogb/thedoga-s-blog"    # The repo to store comments
     issueTerm = "pathname"
     theme="github-light"
+  
+  [params.search.google]    # google custom search, see https://cse.google.com
+    enable = true
+    id = "3e76845adbe032fbe"
+    title = "Search"
